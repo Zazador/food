@@ -9,7 +9,14 @@ import com.parse.ParseACL;
 
 import com.parse.ParseUser;
 
+import android.app.AlertDialog;
 import android.app.Application;
+import android.app.Notification;
+import android.content.DialogInterface;
+import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
+import android.util.Log;
+import android.view.View;
 
 public class ParseApplication extends Application {
     @Override
@@ -28,4 +35,6 @@ public class ParseApplication extends Application {
 
         ParseACL.setDefaultACL(defaultACL, true);
     }
+
+
 }

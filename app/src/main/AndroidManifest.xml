@@ -34,7 +34,7 @@
         <activity
             android:name="com.example.food.app.MainActivity" >
         </activity>ls
-        
+
         <activity
             android:name="com.example.food.app.Welcome" >
         </activity>
@@ -53,7 +53,6 @@
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
                 <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
-
                 <!--
                   IMPORTANT: Change "com.parse.starter" to match your app's package name.
                 -->
